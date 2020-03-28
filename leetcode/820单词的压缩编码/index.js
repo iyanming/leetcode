@@ -1,3 +1,7 @@
+/**
+ * @param {string[]} words
+ * @return {number}
+ */
 var minimumLengthEncoding = function(words) {
     // 反转字符串
     let revWords = words.map(item => item.split("").reverse().join(""));
